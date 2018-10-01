@@ -10,4 +10,4 @@ It provides real time data such as
  * Maintenance set (including all elements with current or planned maintenance)
 
 The API updates every 5 minutes, would you like access? <br />
-Feel free to contact me via [Twitter](https://twitter.com/Mindgamesnl)
+Feel free to contact me via [Twitter](https://twitter.com/Mindgamesnl).
