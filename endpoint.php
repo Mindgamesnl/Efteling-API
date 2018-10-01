@@ -6,13 +6,13 @@ if (file_exists('cache.txt') && time() - filemtime('cache.txt') < 300) {
     //data collection goes here!
     //but i left it out for github to hide the api shizzle
   
-    $jsonEftelOutput = $timeCache;
+    $jsonEftelingOutput = $timeCache;
     $jsonMeta        = $localizedEnCache;
     $jsonParkMeta    = $timeCache;
     $jsonAppMeta     = $localizedEnCache;
     $jsonAppMetaNL   = $localizedNlCache;
     $jsonMaintenance = $timeCache->MaintenanceInfo;
-    $rides           = $jsonEftelOutput->AttractionInfo;
+    $rides           = $jsonEftelingOutput->AttractionInfo;
     $maintenance     = $jsonMaintenance;
     
     $outRides   = new stdClass();
