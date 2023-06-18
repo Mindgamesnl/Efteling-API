@@ -3,8 +3,8 @@ if (file_exists('cache.txt') && time() - filemtime('cache.txt') < 300) {
     header('Content-Type: application/json');
     readfile("cache.txt");
 } else {
-    //data collection goes here!
-    //but i left it out for github to hide the api shizzle
+    //The data collection should normally go here here!
+    //but I left it out for Github to hide the api shizzle
   
     $jsonEftelingOutput = $timeCache;
     $jsonMeta        = $localizedEnCache;
